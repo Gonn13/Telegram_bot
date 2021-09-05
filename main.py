@@ -1,4 +1,4 @@
-token = "1893390873:AAE63gdnXuWbP4vCaMBD
+token = "1893390873:AAE63gdnXuWbP4vCaMBDt-L-nj1-ow4pMAI"
 
 INPUT_TEXT = 0
 def start(update, context):
