@@ -1,5 +1,8 @@
 token = "1893390873:AAE63gdnXuWbP4vCaMBDt-L-nj1-ow4pMAI"
 
+from telegram.ext import Updater, CommandHandler, ConversationHandler,MessageHandler,Filters
+from telegram import ChatAction, ChatPhoto
+
 INPUT_TEXT = 0
 def start(update, context):
   update.message.reply_text("hola lokita! que querés hacer? enviame /volume para ver los volúmenes ballenas de la moneda que quieras")
